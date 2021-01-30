@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "nodemon": "DEBUG=backend:* npx eslint ./ && nodemon ./bin/www",
+    "start": "npx eslint ./ && node ./bin/www",
+    "lint": "npx eslint ./"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  }
+}
