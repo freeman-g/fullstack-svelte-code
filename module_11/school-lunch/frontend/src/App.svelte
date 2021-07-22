@@ -8,7 +8,7 @@
 <main style="min-height: 70vh">
   <section class="section">
     <div class="container">
-      <Router.default {routes} />
+      <Router {routes} />
     </div>
   </section>
 </main>

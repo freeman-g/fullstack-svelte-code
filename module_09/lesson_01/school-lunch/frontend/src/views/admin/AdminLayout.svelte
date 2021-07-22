@@ -53,6 +53,6 @@
 <div>
   {#if initialized}
     <button class="button is-light is-small" style="float: right;" on:click="{() => logout()}">Logout</button>
-    <Route.default {currentRoute} />
+    <Route {currentRoute} />
   {/if}
 </div>

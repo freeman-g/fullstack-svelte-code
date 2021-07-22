@@ -64,9 +64,9 @@
   <div class="content" style="line-height: 30px;">
     <center>
       <span>Already registered?</span>
-      <Navigate.default to="/admin/manage-menus">
+      <Navigate to="/admin/manage-menus">
         <button class="button is-small is-text">Log in</button>
-      </Navigate.default>
+      </Navigate>
     </center>
   </div>
 </div>

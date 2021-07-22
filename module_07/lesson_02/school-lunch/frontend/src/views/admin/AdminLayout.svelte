@@ -17,6 +17,6 @@
 
 <div>
   {#if initialized}
-    <Route.default {currentRoute} />
+    <Route {currentRoute} />
   {/if}
 </div>

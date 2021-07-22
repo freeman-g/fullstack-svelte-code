@@ -4,5 +4,5 @@
 </script>
 
 <main>
-  <Router.default {routes} />
+  <Router {routes} />
 </main>

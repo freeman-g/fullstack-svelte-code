@@ -24,6 +24,6 @@
   "dependencies": {
     "axios": "^0.19.2",
     "sirv-cli": "^0.4.4",
-    "svelte-router-spa": "^5.8.4"
+    "svelte-router-spa": "^6.0.2"
   }
 }

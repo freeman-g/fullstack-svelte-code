@@ -6,7 +6,7 @@
 <main>
   <section class="section">
     <div class="container">
-      <Router.default {routes} />
+      <Router {routes} />
     </div>
   </section>
 </main>
